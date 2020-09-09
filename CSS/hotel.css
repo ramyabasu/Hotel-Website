@@ -1,0 +1,190 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(D:/Project/Hotel-Website/Img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'lato', 'sans-serif';
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background: linear-gradient(to left,green,blue,red,orange);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content
+{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #998800;
+    margin: 2% auto 0;
+    text-align: center;
+    background:linear-gradient(#fff,rgba(8, 184, 190, 0.3));
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px rgba(254,236,164,1);
+}
+
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: blueviolet;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content .input{
+     padding: 7px;
+     box-sizing: border-box;
+     border: 1px brown;
+     width: 100%;
+     font-size: 30px;
+}
+
+.content .input input[type="text"]
+{
+    width: 80%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.content .con input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background:rgb(7, 120, 226);
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+
+
+}
+
+.submit
+{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background:rgb(7, 120, 226);
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.booking-form-box
+{
+    
+    max-width: 450px;
+    height: 250px;
+    border: 1px solid #ced4da;
+    margin: 2% auto 0;
+    text-align: center;
+
+}
+
+
+.radio-btn
+{
+    margin: 0 20px;
+    padding: 5%;
+
+}
+
+.radio-btn .radio-btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+
+.radio-btn .btn::after
+{
+    content: '';
+   
+    top: -2px;
+    left: -1px;
+    background-color:#fff;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #fff;
+    visibility:visible;
+    border-radius: 30%;
+}
+
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.radio-btn span
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.input-grp
+{
+    width: 170px;
+    display: inline-block;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:rgb(255, 0, 191);
+    display: inline-block;
+    
+}
+
+.form-control
+{
+    font-size: 13px;
+    border-radius: 0;
+    color: #fff;
+    background: transparent;
+    box-shadow: none;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+   
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.select-date::-webkit-calendar-picker-indicator
+{
+    background: transparent;
+}
+
+.bn
+{
+    background-color: rgb(31, 152, 223);
+    font-size: larger;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+
+}
+
+.btn
+{
+    background-color: rgb(31, 152, 223);
+    font-size: x-large;
+    box-shadow: 3px solid gray;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}

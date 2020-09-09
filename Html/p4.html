@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Payment Gateway</title>
+    <link rel="stylesheet" type="text/css" href="D:\Project\Hotel-Website\CSS\pmt.css">
+    <script src="D:\Project\Hotel-Website\Java Script\pmt.js"></script>
+    </head>
+
+    <body>
+        <h1>Payment</h1>
+
+        <div class="checkout">
+            <div class="container">
+                <h2>Your Room</h2>
+
+
+                <div class="checkout-inner">
+                    <form onreset="myFunction() ">
+                        <div class="checkout-form-steps">
+                            <h3>Personal Details</h3>
+                            <input type="text" class="textfield" placeholder="Your Name" id="name">
+                            <input type="email" class="textfield" placeholder="Your Email" id="email">
+                            <input type="text" class="textfield" placeholder="Your Phone Number" id="phone">
+                        </div>
+
+                        <div class="checkout-form-steps">
+                            <h3>Type of Room</h3>
+                            <select class="textfield">
+                                <option>Select Room</option>
+                                <option>Suite Room</option>
+                            </select>
+                        </div>
+                        <div class="checkout-form-steps">
+                            <h3>Payment Options</h3>
+                            <label for="radio4">
+                                <input type="radio" name="billingoptions" id="radio4">
+                                In Cash
+                            </label>
+                            <label for="radio5">
+                                <input type="radio" name="billingoptions" id="radio4">
+                                Net Banking
+                            </label>
+                            <label for="radio6">
+                                <input type="radio" name="billingoptions" id="radio4">
+                                Paytm
+                            </label>
+                            <label for="radio7">
+                                <input type="radio" name="billingoptions" id="radio4">
+                                Credit Card
+                            </label>
+                            <label for="radio8">
+                                <input type="radio" name="billingoptions" id="radio4">
+                                Wallet
+                            </label>
+                        </div>
+                        <input type="submit" class="submit-btn" value="Pay Now" onclick="javascript:return payment()">
+
+                        <div class="input">
+                            <a href="D:\Project\Hotel-Website\Html\home.html"><input type="button" class="home-btn" value="Home"></a>
+                        </div>
+
+                        <div class="input-grp">
+                            <input type="reset" class="reset-btn" value="Reset" onreset="javascript:myFunction()">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="content">
+                    <img src="D:\Project\Hotel-Website\Img\8.jpg">
+                    <h4>Suite Room</h4>
+                    <p>Price : <span><i class="fas fa-dollar-sign"></i>Rs.2000</span></p>
+                    <p>Total Amount : <span><i class="fas fa-dollar-sign"></i>Rs.2000</span></p>
+                    <a href="D:\Project\Hotel-Website\Html\room.html"><input type="button" class="back-btn" value="Back"></a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

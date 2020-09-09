@@ -1,0 +1,130 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url(D:/Project/Hotel-Website/Img/12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: linear-gradient(rgb(117, 183, 226),rgb(255, 82, 1),rgb(236, 10, 161));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ec1c50;
+}
+.container
+{
+    float: right;
+    border: 1px solid black;
+    width: 350px;
+    box-sizing: border-box;
+    box-shadow: 2px solid black;
+    padding: 0%;
+    align-items: center;
+}
+
+h2
+{
+    font-size: 40px;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    
+}
+
+ul li{
+    display: inline-block;
+     font-size: 25px;
+     color: #d0d0d0;
+     font-weight: bold;
+}
+
+.textfield
+{
+    
+    width: 26%;
+   
+}
+
+.textfield h3
+{
+    font-size: 30px;
+    padding: 15px 0;
+    line-height: 22px;
+    color: palegreen;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.textfield ul{
+    padding: 15px;
+    background-color: #00000010;
+    font-size: 18px;
+    border-bottom: 1px solid #00000020;
+    
+}
+
+.input
+{
+    top: 300px;
+    text-align: center;
+    font: outline;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ec1c50;
+
+}    
+
+
+.input .btn
+{
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(6, 67, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input-grp
+{
+    align-items: center;
+    width: 36%;
+   
+}
+
+.input-grp h3
+{
+    font-size: 30px;
+    padding: 15px 0;
+    line-height: 22px;
+    color: palegreen;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.input-grp ul{
+    padding: 15px;
+    background-color: #00000010;
+    font-size: 18px;
+    border-bottom: 1px solid #00000020;
+    
+}
+
+
+

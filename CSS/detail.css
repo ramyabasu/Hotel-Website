@@ -1,0 +1,118 @@
+body{
+    background-image:url(D:/Project/Hotel-Website/Img/0.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    text-transform: uppercase;
+
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+    color:black;
+    text-transform: uppercase;
+}
+li{
+
+    top: 50%;
+    padding: 1%;
+    right: auto;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    text-shadow: blanchedalmond;
+    color:rgb(10, 6, 236);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'josefin slab';
+}
+
+.content{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background:linear-gradient(#fff,rgba(0,0,0,0.3));
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1);
+}
+
+.content h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#332902;
+
+}
+
+.content .input_field{
+    margin-bottom: 10px;
+
+}
+
+.content .input_field input[type="text"],
+.content textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.content textarea{
+    height: 80px;
+    resize: none;
+}
+
+.content .btn input[type="submit"]{
+     border: 0;
+     margin-top: 15px;
+     padding: 10px;
+     width: 100%;
+     background:greenyellow;
+     color: #332902;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-weight: bold;
+     border-radius: 25px;
+     cursor: pointer;
+
+
+}
+
+.content #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition-duration: 1.5s ease ;
+}
+
+.submit
+{
+    border: 0;
+     margin-top: 15px;
+     padding: 10px;
+     width: 100%;
+     background:greenyellow;
+     color: #332902;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-weight: bold;
+     border-radius: 25px;
+     cursor: pointer;
+}

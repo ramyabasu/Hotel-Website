@@ -1,0 +1,49 @@
+body{
+    background-color: lightblue;
+
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: blueviolet;
+}
+
+img{
+    width: 500px;
+    height: 200px;
+}
+
+table{
+    
+    width: 85%;
+
+}
+
+td{
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    color: blue;
+}
+
+
+.bkbtn
+{
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(6, 67, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+button{
+    background-color: lightgreen;
+    font-size: 20px;
+    cursor: pointer;
+}
